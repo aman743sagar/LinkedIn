@@ -7,7 +7,7 @@ const Landing = () => {
     <div className='landingPageContainer'>
        <nav>
         <div className='navheader'>
-            <h2> Your Video App</h2>
+            <img src="/image/myvideologo.jpg" alt="" style={{height:'40px', width:'190px'}} />
         </div>
         <div className='navlist'>
               <p onClick={()=>{
@@ -34,7 +34,7 @@ const Landing = () => {
             </div>
         </div>
         <div>
-            <img src="/image/mobile2.jpg" alt="" />
+            <img src="/image/lvideo.png" alt="" />
         </div>
        </div>
 

@@ -22,7 +22,7 @@ const Home = () => {
 
     }
   return (  
-    <>
+    <div style={{backgroundColor:'white'}}>
     <div className='navBar' style={{backgroundColor:"whitesmoke" , height:'80px'}}>
         <div style={{display:'flex', alignItems:'center'}}>
             <h1  style={{fontWeight:'400'}}>Hii welcome in My <VideoChatIcon/> Video app </h1>
@@ -56,10 +56,10 @@ const Home = () => {
             </div>
         </div>
         <div className='rightPanel'>
-            <img src='/image/vido1.png'/>
+            <img src='/image/himage.jpg'/>
         </div>
     </div>
-    </>
+    </div>
   )
 }
 
