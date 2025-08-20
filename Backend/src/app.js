@@ -27,7 +27,7 @@ app.use(express.json({limit:'40kb', extended: true}))
 
 app.use('/api/v1/users',userRoute)
 const start=async ()=>{
-    const connectiondb=await mongoose.connect('mongodb+srv://amansagar60281:e0TGlTO8Vfletf97@cluster0.fm2qvki.mongodb.net/')
+    const connectiondb=await mongoose.connect('')
     console.log(`MONGO DB CONNECTED HOST ${connectiondb.connection.host}`);
     server.listen(app.get("port"),()=>{
         console.log('sever is listing at 8000');
